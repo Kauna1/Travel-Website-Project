@@ -221,6 +221,11 @@ h6 {
   border: none;
   border-radius: 5px;
   padding: 17px 25px;
+  cursor: pointer;
+}
+
+.hero-button:hover {
+  background-color: var(--main-header-color);
 }
 
 .hero-plane-one {
