@@ -428,3 +428,115 @@ figcaption {
 .twitter {
   background-color: #00acee;
 }
+
+@media screen and (max-width: 768px) {
+  body {
+    padding: auto;
+    margin: auto;
+    background-image: none;
+    width: 1170px;
+  }
+  section {
+    width: 1170px;
+  }
+
+  .hero-container {
+    width: 1170px;
+    text-align: center;
+  }
+
+  .hero-text {
+    font-size: 40px;
+  }
+
+  .hero-header {
+    text-align: center;
+    width: 1170px;
+    font-size: 60px;
+    line-height: 60px;
+    text-transform: capitalize;
+    margin-top: 50px;
+  }
+
+  .hero-paragraph {
+    font-size: 30px;
+    margin-top: -10px;
+  }
+  .hero-button {
+    font-size: 20px;
+  }
+
+  .hero-img-container {
+    display: none;
+  }
+
+  .category {
+    /* margin: auto;
+    width: 1150px; */
+    margin-top: -200px;
+    /* text-align: center; */
+    font-size: 30px;
+  }
+
+  .features-wrapper {
+    /* flex-direction: column; */
+    width: 1170px;
+    justify-content: space-between;
+  }
+  .top-selling {
+    font-size: 30px;
+  }
+
+  .fig-destination {
+    height: 350px;
+    width: 350px;
+  }
+
+  .easy-fast {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .trip-image-wrapper {
+    left: -550px;
+    top: 250px;
+  }
+
+  .trip-text {
+    margin-top: -10px;
+    width: 525px;
+  }
+
+  .trip-text,
+  p {
+    font-size: 20px;
+  }
+
+  .trip-text,
+  h3 {
+    font-size: 25px;
+  }
+
+  .name-height {
+    line-height: 20px;
+  }
+
+  .mobile-sharing-top {
+    margin-top: 25px;
+  }
+  .testimonials-section {
+    flex-direction: column;
+  }
+
+  .testimonial-scroll {
+    display: none;
+  }
+
+  .testimonial-wrapper {
+    height: 200px;
+  }
+
+  .cta-wrapper {
+    width: 960px;
+  }
+}
